@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right top,#051937,#004d7a,#008793,#00bf72,#a8eb12);
+}
+
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+section h1{
+    font-size: 50px;
+   
+}
+
+.gradient{
+    margin: 25px;
+}
+
+.gradient button{
+    margin: 15px;
+}
+
+#button1{
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: rgb(3, 3, 83);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#button2{
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color:rgb(74, 242, 74);
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+section h4{
+    font-size: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+section h4 i{
+    font-size: 25px;
+    /* color: black; */
+    margin-left: 5px;
+}
+
+.content{
+    margin-left: 80px;
+    width: 320px;
+    background-color: rgba(255, 255, 255, 0.099);
+    text-align: left;
+    padding: 10px;
+    border-left: 3.5px solid white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
